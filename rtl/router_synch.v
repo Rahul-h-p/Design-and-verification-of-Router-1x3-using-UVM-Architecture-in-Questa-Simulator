@@ -1,23 +1,4 @@
-//`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    21:30:59 06/30/2025 
-// Design Name: 
-// Module Name:    router_synch 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
-//
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+
 module router_synch(detect_add,data_in,write_enb_reg,clock, resetn,vld_out_0,vld_out_1,vld_out_2,read_enb_0,read_enb_1,read_enb_2,write_enb,empty_0,empty_1,empty_2,soft_reset_0,soft_reset_1,soft_reset_2,fifo_full,full_0,full_1,full_2
     );
 input detect_add,write_enb_reg,clock,resetn,read_enb_0,read_enb_1,read_enb_2,full_0,full_1,full_2,empty_0,empty_1,empty_2;
