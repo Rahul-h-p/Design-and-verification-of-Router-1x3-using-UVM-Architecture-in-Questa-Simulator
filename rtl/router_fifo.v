@@ -1,5 +1,4 @@
 
-
 module router_fifo(clock,resetn,data_in,read_enb,write_enb,data_out,full,empty,lfd_state,soft_reset
     );
 
