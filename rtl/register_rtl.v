@@ -1,4 +1,4 @@
-module router_register(clock, resetn, pkt_valid,data_in,fifo_full, rst_int_reg, detect_add,ld_state,laf_state,
+module register_rtl(clock, resetn, pkt_valid,data_in,fifo_full, rst_int_reg, detect_add,ld_state,laf_state,
 	full_state, lfd_state, parity_done, low_pkt_valid, err, d_out);
 input clock, resetn, pkt_valid, fifo_full, rst_int_reg, detect_add, ld_state, laf_state, full_state, lfd_state;
 input [7:0] data_in;
