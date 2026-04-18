@@ -1,4 +1,4 @@
-module router_top(clock, resetn,read_enb_0 ,read_enb_1, read_enb_2, data_in, pkt_valid, data_out_0, data_out_1, data_out_2, valid_out_0, valid_out_1, valid_out_2, error, busy);
+module router_1x3(clock, resetn,read_enb_0 ,read_enb_1, read_enb_2, data_in, pkt_valid, data_out_0, data_out_1, data_out_2, valid_out_0, valid_out_1, valid_out_2, error, busy);
 //router_if.DUV_MP inf;
 input clock,resetn, read_enb_0, read_enb_1,read_enb_2;
 input pkt_valid;
