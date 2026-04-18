@@ -1,4 +1,4 @@
-module FSM_RTL(clock,resetn,packet_valid,datain,fifo_full,fifo_empty_0,fifo_empty_1,fifo_empty_2,soft_reset_0,soft_reset_1,soft_reset_2,parity_done,low_packet_valid, write_enb_reg,detect_add,ld_state,laf_state,lfd_state,full_state,rst_int_reg,busy
+module fsm(clock,resetn,packet_valid,datain,fifo_full,fifo_empty_0,fifo_empty_1,fifo_empty_2,soft_reset_0,soft_reset_1,soft_reset_2,parity_done,low_packet_valid, write_enb_reg,detect_add,ld_state,laf_state,lfd_state,full_state,rst_int_reg,busy
     );
 input clock,resetn,packet_valid;
 input [1:0] datain;
